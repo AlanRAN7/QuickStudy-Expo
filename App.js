@@ -1,10 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+// import ModalComponent from './src/components/ModalComponent';
+import BuscadorComponent from './src/components/BuscadorComponent';
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
+      {/* <ModalComponent/> */}
+      <BuscadorComponent/>
       <StatusBar style="auto" />
     </View>
   );
